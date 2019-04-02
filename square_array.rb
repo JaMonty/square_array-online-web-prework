@@ -6,6 +6,7 @@ def square_array(array)
     expect(numbers).to_not receive(:inject)
     square_array(numbers)
   end
+  
   # your code here
 end
 
